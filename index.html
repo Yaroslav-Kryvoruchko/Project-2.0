@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сlimber</title>
     <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="shered.css">
     <link rel="stylesheet" href="main.css">
     <!--Сайт сделат по шаблону: https://ru.wix.com/website-template/view/html/1791?siteId=9c93c40f-2d13-40f7-bcbc-facae2c48534&metaSiteId=c05ab709-dda5-4664-8b81-f9cfc9c69eb0&originUrl=https%3A%2F%2Fru.wix.com%2Fwebsite%2Ftemplates  -->
 </head>
@@ -13,34 +14,36 @@
         <div>
             <ul class="main-header__titles">
                 <li  class="main-header__title">
-                    <a href="">Агенство</a>
+                    <a href="index.html">Агенство</a>
                 </li>
                 <li class="main-header__title main-header__color">
-                    <a href="">Консультанты</a>
+                    <a href="index.html">Консультанты</a>
                 </li>
             </ul>
         </div>
         <nav class="main-nav">
-            <button class="toggle-button">
-                <span class="toggle-button__bar"></span>
-                <span class="toggle-button__bar"></span>
-                <span class="toggle-button__bar"></span>
-            </button>
+            <div class="button-1">
+                <button class="toggle-button">
+                    <span class="toggle-button__bar"></span>
+                    <span class="toggle-button__bar"></span>
+                    <span class="toggle-button__bar"></span>
+                </button>
+            </div>
             <ul class="main-nav__items">
                 <li class="main-nav__item">
-                    <a href="#">О нас</a>
+                    <a href="about/index.html">О нас</a>
                 </li>
                 <li class="main-nav__item">
-                    <a href="#">Услуги</a>
+                    <a href="services/index.html">Услуги</a>
                 </li>
                 <li class="main-nav__item">
-                    <a href="#">Проекты</a>
+                    <a href="project/index.html">Проекты</a>
                 </li>
                 <li class="main-nav__item">
-                    <a href="#">Клиенты</a>
+                    <a href="customers/index.html">Клиенты</a>
                 </li>
                 <li class="main-nav__item">
-                    <a href="#">Контакты</a>
+                    <a href="#footer">Контакты</a>
                 </li>
             </ul>
         </nav>
@@ -49,19 +52,23 @@
     <div class="mobile-menu">
         <ul class="mobile__items">
             <li class="mobile__item">
-                <a href="#">О нас</a>
+                <a href="about/index.html">О нас</a>
+                <hr class="mobile-line">
             </li>
             <li class="mobile__item">
-                <a href="#">Услуги</a>
+                <a href="services/index.html">Услуги</a>
+                <hr class="mobile-line">
             </li>
             <li class="mobile__item">
-                <a href="#">Проекты</a>
+                <a href="project/index.html">Проекты</a>
+                <hr class="mobile-line">
             </li>
             <li class="mobile__item">
-                <a href="#">Клиенты</a>
+                <a href="customers/index.html">Клиенты</a>
+                <hr class="mobile-line">
             </li>
             <li class="mobile__item">
-                <a href="#">Контакты</a>
+                <a href="#footer">Контакты</a>
             </li>
     </div>
     <main>
@@ -80,7 +87,7 @@
                         чтобы выгодно представить свою компанию клиентам. Объясните, в чем заключается ваше 
                         преимущество перед конкурентами.</h3>
                     <div>
-                        <button class="list-button">Подробнее</button>
+                        <a href="services/index.html"><button class="list-button">Подробнее</button></a>
                     </div>
                 </article>
                 <article class="list">
@@ -89,7 +96,7 @@
                         чтобы выгодно представить свою компанию клиентам. Объясните, в чем заключается ваше 
                         преимущество перед конкурентами.</h3>
                     <div>
-                        <button class="list-button">Подробнее</button>
+                        <a href="project/index.html"><button class="list-button">Подробнее</button></a>
                     </div>
                 </article>
                 <article class="list">
@@ -98,7 +105,7 @@
                         чтобы выгодно представить свою компанию клиентам. Объясните, в чем заключается ваше 
                         преимущество перед конкурентами.</h3>
                     <div>
-                        <button class="list-button">Подробнее</button>
+                        <a href="customers/index.html"><button class="list-button">Подробнее</button></a>
                     </div>
                 </article>
             </div>
@@ -117,12 +124,12 @@
                      ваш сайт найдут в поисковых системах. 
                 </p>
                 <div>
-                    <button class="button">Подробнее</button>
+                    <a href="about/index.html"><button class="button">Подробнее</button></a>
                 </div>
             </div>
         </section>
     </main>
-    <footer class="main-footer">
+    <footer class="main-footer" id="footer">
         <div class="main-footer__title">
             <h1>СВЯЖИТЕСЬ С НАМИ</h1>
         </div>
